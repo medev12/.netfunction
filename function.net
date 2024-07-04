@@ -1,7 +1,15 @@
-public class Program
+//Import
+using System.Web.HttpContext.Current.Response;
+
+//Define
+public class myclass()
 {
-    public static void Main(string[] args)
+    public void myfunction()
     {
-        System.Console.WriteLine("Hello, World!");
+
+        Response.Write("Hello World");
     }
 }
+
+//Call
+myclass::myfunction();
