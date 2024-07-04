@@ -1,0 +1,2 @@
+# .netfunction
+function app code
